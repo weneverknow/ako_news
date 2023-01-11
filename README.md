@@ -1,4 +1,4 @@
-# ako_test
+# Ako News
 
 Ako Media News App
 
