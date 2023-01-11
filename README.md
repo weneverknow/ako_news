@@ -6,7 +6,7 @@ Ako Media News App
 
 This project build with flutter using clean architecture pattern and BLoC as state management 
 
-Data resources which used by this app from (https://newsapi.org)
+Data resources which used by this app from https://newsapi.org
 
 App Features :
     - Show list news
