@@ -22,6 +22,9 @@ class NewsSearchBox extends StatelessWidget {
         decoration: InputDecoration(
             suffixIcon: GestureDetector(
                 onTap: () {
+                  if (_searchController.text.isEmpty) {
+                    return;
+                  }
                   _searchController.clear();
                   context.read<NewsListBloc>().add(NewsListLoad());
                 },
