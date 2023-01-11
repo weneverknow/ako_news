@@ -9,11 +9,15 @@ This project build with flutter using clean architecture pattern and BLoC as sta
 Data resources which used by this app from https://newsapi.org
 
 App Features :
-    - Show list news
-    - Search news by text
-    - Show detail news
+<ul>
+<li>Show list news</li>
+<li>Search news by text</li>
+<li>Show detail news</li>
+</ul>
+    
 
 Packages :
+    <pre>
     - flutter_bloc:^latest
         [as state management] : https://pub.dev/packages/flutter_bloc
     - get_it:^lates
@@ -21,4 +25,5 @@ Packages :
     - dio:^latest
         [as api connection] : https://pub.dev/packages/dio
     - etc
+    </pre>
 
